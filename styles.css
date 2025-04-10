@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url("img/background-image.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
+  
+  header {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #7a4e2f;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: #f8f1ea;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hero button {
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    background-color: #7a4e2f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  section {
+    margin: 3rem 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    color: #7a4e2f;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
